@@ -1,0 +1,73 @@
+.mint-header {
+   background-color: black;
+ }
+ .mint-button:not(.is-disabled):active::after {
+     opacity: .2 /* .6 */
+ }
+ .mint-button--primary {
+     background-color: #1E90FF;
+ }
+ .mint-button--primary.is-plain {
+     border: 1px solid #1E90FF;
+     color: #1E90FF;
+ }
+ .mint-badge.is-primary {
+   background-color: #1E90FF;
+ }
+ 
+
+/* danger */
+ .mint-button--danger {
+  background-color: white;
+  color: #1E90FF;
+  border: 1.2px solid #1E90FF;
+}
+.mint-button--danger{
+  border: 1.2px solid #1E90FF;
+  color: #1E90FF;
+}
+.mint-button--danger.is-plain {
+  border: 1.2px solid #1E90FF;
+  color: #1E90FF;
+}
+.mint-badge.is-danger {
+background-color: white;
+}
+ 
+ .mint-switch-input:checked + .mint-switch-core {
+   border-color: black;
+   background-color: black;
+ }
+ .mint-navbar .mint-tab-item.is-selected {
+   border-bottom: 3px solid black;
+   color: black;
+ }
+ .mint-tabbar > .mint-tab-item.is-selected {
+   color: black;
+ }
+ .mint-searchbar-cancel {
+   color: black;
+ }
+ .mint-checkbox-input:checked + .mint-checkbox-core {
+   background-color: black;
+   border-color: black;
+ }
+ .mint-radio-input:checked + .mint-radio-core {
+   background-color: black;
+   border-color: black;
+ }
+ .mt-range-progress {
+   background-color: black;
+ }
+ .mt-progress-progress {
+   background-color: black;
+ }
+ .mint-msgbox-confirm {
+   color: black;
+ }
+ .mint-msgbox-confirm:active {
+   color: black;
+ }
+ .mint-datetime-action {
+   color: black;
+ }

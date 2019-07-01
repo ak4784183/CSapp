@@ -1,0 +1,13 @@
+/* 页面的容器 */
+.wrapper {
+    /* 页面视觉百分百比例 */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* 撑满剩余空间 */
+section {
+    flex: 1;
+    overflow: auto;
+}
